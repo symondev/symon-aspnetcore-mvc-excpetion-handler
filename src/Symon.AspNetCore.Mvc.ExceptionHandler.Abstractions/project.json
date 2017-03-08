@@ -1,11 +1,11 @@
 ﻿{
   "version": "1.0.0",
-  "authors": [ "symon" ],
+  "authors": [ "Symon Zhao" ],
   "description": "Symon.AspNetCore.Mvc.ExceptionHandler.Abstractions is an extensions to handle exception.",
   "title": "Symon.AspNetCore.Mvc.ExceptionHandler.Abstractions",
-  "copyright": "2016 © symon",
+  "copyright": "2016 © Symon Zhao",
   "packOptions": {
-    "owners": [ "symon" ],
+    "owners": [ "Symon Zhao" ],
     "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
     "projectUrl": "https://github.com/symondev/symon-aspnetcore-mvc-excpetion-handler",
     "repository": {

@@ -1,0 +1,31 @@
+﻿{
+  "version": "1.0.0",
+  "authors": [ "symon" ],
+  "description": "Symon.AspNetCore.Mvc.ExceptionHandler is an extensions to handle exception.",
+  "title": "Symon.AspNetCore.Mvc.ExceptionHandler",
+  "copyright": "2016 © symon",
+  "packOptions": {
+    "owners": [ "symon" ],
+    "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
+    "projectUrl": "https://github.com/symondev/symon-aspnetcore-mvc-excpetion-handler",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/symondev/symon-aspnetcore-mvc-excpetion-handler"
+    },
+    "tags": [ "exception handler" ]
+  },
+
+  "dependencies": {
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
+    "Microsoft.Extensions.Options": "1.0.0",
+    "Newtonsoft.Json": "9.0.1",
+    "zxm.MailKit.Abstractions": "1.0.0",
+    "Symon.AspNetCore.Mvc.ExceptionHandler.Abstractions": { "target": "project" }
+  },
+  "frameworks": {
+
+    "netstandard1.3": {},
+    "net451": {}
+  }
+}

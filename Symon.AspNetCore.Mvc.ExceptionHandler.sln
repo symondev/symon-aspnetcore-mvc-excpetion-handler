@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Symon.AspNetCore.Mvc.ExceptionHandler", "src\Symon.AspNetCore.Mvc.ExceptionHandler\Symon.AspNetCore.Mvc.ExceptionHandler.xproj", "{C8B56F39-76EB-4405-A77F-0FF27F0B29DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4A2D4440-6E28-4838-B414-83EFE764D32E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0AF6432-2017-4219-8E4F-E8A0D63DFB49}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Symon.AspNetCore.Mvc.ExceptionHandler.Abstractions", "src\Symon.AspNetCore.Mvc.ExceptionHandler.Abstractions\Symon.AspNetCore.Mvc.ExceptionHandler.Abstractions.xproj", "{AB525BD1-4692-470C-ACC9-B623BA208B68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DDDFCEED-1382-4F64-B53F-AE31B9F57C20}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Symon.AspNetCore.Mvc.ExceptionHandler.Tests", "test\Symon.AspNetCore.Mvc.ExceptionHandler.Tests\Symon.AspNetCore.Mvc.ExceptionHandler.Tests.xproj", "{93F6082C-315A-48B2-97DF-EECF85769049}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8B56F39-76EB-4405-A77F-0FF27F0B29DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B56F39-76EB-4405-A77F-0FF27F0B29DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B56F39-76EB-4405-A77F-0FF27F0B29DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B56F39-76EB-4405-A77F-0FF27F0B29DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB525BD1-4692-470C-ACC9-B623BA208B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB525BD1-4692-470C-ACC9-B623BA208B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB525BD1-4692-470C-ACC9-B623BA208B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB525BD1-4692-470C-ACC9-B623BA208B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F6082C-315A-48B2-97DF-EECF85769049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F6082C-315A-48B2-97DF-EECF85769049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F6082C-315A-48B2-97DF-EECF85769049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F6082C-315A-48B2-97DF-EECF85769049}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8B56F39-76EB-4405-A77F-0FF27F0B29DA} = {4A2D4440-6E28-4838-B414-83EFE764D32E}
+		{AB525BD1-4692-470C-ACC9-B623BA208B68} = {4A2D4440-6E28-4838-B414-83EFE764D32E}
+		{93F6082C-315A-48B2-97DF-EECF85769049} = {DDDFCEED-1382-4F64-B53F-AE31B9F57C20}
+	EndGlobalSection
+EndGlobal

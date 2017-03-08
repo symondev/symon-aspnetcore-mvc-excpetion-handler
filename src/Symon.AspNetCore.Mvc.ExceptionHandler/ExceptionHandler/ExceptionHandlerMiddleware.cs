@@ -102,18 +102,23 @@ namespace Symon.AspNetCore.Mvc.ExceptionHandler.ExceptionHandler
                     if (ex is ExpectedException)
                     {
                         response.Type = ErrorType.Expected;
-                        response.ErrorCode = ((ExpectedException)ex).ErrorCode;
-                        response.ErrorMessage = ex.Message;
+                        response.Code = ((ExpectedException)ex).ErrorCode;
+                        response.Message = ex.Message;
                     }
                     else
                     {
                         response.Type = ErrorType.Unexpected;
-                        response.ErrorMessage = ex.Message;
+                        response.Message = ex.Message;
                     }
 
                     context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
                     context.Response.ContentType = "application/json";
-                    await context.Response.WriteAsync(JsonConvert.SerializeObject(response, new JsonSerializerSettings { Formatting = Formatting.Indented }));
+                    await context.Response.WriteAsync(JsonConvert.SerializeObject(response, Formatting.Indented,
+                        new JsonSerializerSettings
+                        {
+                            ContractResolver =
+                                new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver()
+                        }));
                 }
             }
         }

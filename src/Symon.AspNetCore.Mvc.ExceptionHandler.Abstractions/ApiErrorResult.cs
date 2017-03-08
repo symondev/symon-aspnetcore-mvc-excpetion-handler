@@ -6,17 +6,17 @@
         {
         }
 
-        public ApiErrorResult(ErrorType type, int errorCode, string errorMessage)
+        public ApiErrorResult(ErrorType type, int code, string message)
         {
             Type = type;
-            ErrorCode = errorCode;
-            ErrorMessage = errorMessage;
+            Code = code;
+            Message = message;
         }
 
         public ErrorType Type { get; set; }
 
-        public int ErrorCode { get; set; }
+        public int Code { get; set; }
 
-        public string ErrorMessage { get; set; }
+        public string Message { get; set; }
     }
 }

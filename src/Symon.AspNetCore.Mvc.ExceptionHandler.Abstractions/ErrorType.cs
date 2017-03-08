@@ -2,7 +2,7 @@
 {
     public enum ErrorType
     {
-        Expected,
-        Unexpected
+        Unexpected = 1,
+        Expected = 2
     }
 }

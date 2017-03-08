@@ -41,7 +41,7 @@ namespace Symon.AspNetCore.Mvc.ExceptionHandler.Tests
                     processManualTimes++;
                 };
 
-                app.UseExceptionHandler(options);
+                app.UseSymonExceptionHandler(options);
                 app.Run(context =>
                 {
                     throw new Exception("Server Error");
